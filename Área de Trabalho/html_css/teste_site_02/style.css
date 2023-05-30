@@ -1,3 +1,10 @@
+html, body{
+    margin: auto;
+    width: 80%;
+
+    padding: 10px;
+}
+
 header{
     display: flex;
 
@@ -19,32 +26,33 @@ header ul{
 }
 
 img{
-    height: 250px;
-    width: 250px;
+    height: 33vh;
+    max-width: 350px;
 }
 
-.images_flex{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    height: 250px;
-    width: 100%;
+.images_row{
+    display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    gap: 10px;
+    padding-bottom: 50px;
+} 
 
 .advertising{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    align-self: center;
-}
 
-.images_grid{
+    padding-right: 20px;
+} 
+
+.images_galery{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
-    justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    gap: 10px;
 }
