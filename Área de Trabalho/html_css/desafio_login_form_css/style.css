@@ -1,15 +1,26 @@
 html, body{
-  border: 0;
-  background-color: #191816;
-  color: white;
+    border: 0px;
+    padding: 0px;
+    background-color: #191816;
+    color: #afb6c2;
 }
-
+  
 main{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.side-img{
-  background-image: ;
+main .left{
+    width: 572px;
+    height: 512px;
+    background-color: #24221f;
 }
+
+main .right{
+    width: 50%;
+    height: 100%;
+}
+
+
+  
