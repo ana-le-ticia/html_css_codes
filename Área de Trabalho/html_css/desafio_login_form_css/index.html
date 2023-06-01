@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
     <title>Login_Form_Css</title>
-</head>
-<body>
-
-    <div class="logo">
-        <img src="logo.png" alt="icon"> 
-    </div>
-
+  </head>
+  <body>
     <main>
-        
-        <div class="left">
-
-            <form class="formulario">
-        
-                <div class="form-top">
-                    <h1>Faça seu Login</h1>
-                    <h2>entre com as informações de cadastro</h2>
-                </div>
-                
-                <div class="email">
-                    <p>E-mail</p>
-                    <input type="text" placeholder="Digite seu e-mail" id="emial">
-                </div>
-                
-                <div class="password">
-                    <p>Senha</p>
-                    <input type="text" placeholder="Digite sua senha" id="password">
-                </div>
-        
-                <div class="remember-me">
-                    <input type="checkbox" id="checkbox"> Lembre-me
-                </div>
-        
-                <div class="forget_password">
-                    <a href="">Esqeci minha senha</a>
-                </div>
-        
-                <div class="form-btn">
-                    <input type="submit" value="Entrar" id="login_btn" />
-                </div>
-        
-                <div class="message">
-                    <p>Não tem uma conta? <a href="">Cadastre-se</a></p>
-                </div>
-        
-            </form>
-
+      <div class="left">
+        <div class="logo">
+          <img src="logo.png" alt="icon" />
         </div>
 
-        <div class="right">
-            <img src="side-image.jpg" alt="side image">
-        </div>
+        <div class="formulario">
+          <form>
+            <div class="form-top">
+              <div class="titulo">
+                <img src="log-in.png" alt="" />
+                <h1>Faça seu Login</h1>
+              </div>
+              <div class="subtitulo">
+                <h2>Entre com suas informações de cadastro</h2>
+              </div>
+            </div>
 
+            <div class="email">
+              <p>E-mail</p>
+              <div class="input_email_img">
+                <img src="mail_preto.svg" alt="">
+                <input type="email" placeholder="Digite seu e-mail" id="email" />
+              </div>
+            </div>
+              
+
+            <div class="password">
+              <p>Senha</p> 
+              <div class="input_password_img">
+                <img src="lock_preto.svg" alt="">
+                <input type="password" placeholder="Digite sua senha" id="password" />
+              </div> 
+            </div>
+
+            <div class="remember-me">
+              <input type="checkbox" id="checkbox" /> Lembre-me
+            </div>
+
+            <div class="forget-password">
+              <a href="">Esqeci minha senha</a>
+            </div>
+
+            <div class="form-btn">
+              <button type="submit" id="login_btn">ENTRAR</button>
+            </div>
+
+            <div class="message">
+              <p>Não tem uma conta? <a href="">Cadastre-se</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="image"></div>
     </main>
-
-</body>
+  </body>
 </html>
-
-

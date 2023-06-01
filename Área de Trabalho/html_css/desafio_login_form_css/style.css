@@ -1,26 +1,165 @@
+
 html, body{
-    border: 0px;
-    padding: 0px;
-    background-color: #191816;
-    color: #afb6c2;
+  border: 0px;
+  padding: 0px;
+  background-color: #191816;
+  color: #afb6c2;
 }
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+main .left {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr;
+
+  height: 100vh;
+}
+
+.logo {
+  margin: 25px;
+}
+
+main .formulario {
+  width: 600px;
+  height: 600px;
+  margin: 100px;
+
+  background-color: #24221f;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario form {
+  width: 500px;
+  height: 512px;
+
+  border: 1px solid yellow;
+
+  /* border: 1px solid yellow; */
+}
+
+.form-top {
+  display: flex;
+  flex-direction: column;
+
+  width: 334px;
+  height: 64px;
+
+  padding: 50px;
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+
+}
+
+.titulo h1 {
+  color: #d4ccb6;
+}
+
+.subtitulo {
+  font-size: 11px;
+
+  color: #afb6c2;
+}
+
+span{
+  position: relative;
+}
+
+/* inputs */
+
+.input_email_img{
+  display: flex;
+}
+
+.input_password_img{
+  display: flex;
+}
+
+.email input, .password input{
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+}
+
+/* .email input{
+  background-repeat: no-repeat;
+}
+
+.password input{
+  background-repeat: no-repeat;
+} */
+
+/* input[type="text"] {
+  height: 44px;
+  width: 100%;
   
-main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  border-radius: 4px;
+} */
+
+/* .email input[type="text"]:focus {
+  background-image: url("mail_amarelo.svg");
+  background-repeat: no-repeat;
 }
 
-main .left{
-    width: 572px;
-    height: 512px;
-    background-color: #24221f;
+input:focus + span{
+  content: url("mail_amarelo.svg");
+} */
+
+/* .password input {
+  background-image: url("lock.png");
+  background-repeat: no-repeat;
+} */
+
+main .image {
+  width: 50%;
+  height: 100%;
+  background-image: url("side-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
 }
 
-main .right{
-    width: 50%;
-    height: 100%;
+.remember-me {
+  display: inline;
+  margin: 10px;
+}
+
+.forget-password {
+  display: inline;
+  margin: 10px;
 }
 
 
-  
+input:focus {
+  border: 3px solid #ffc632;
+  outline: none;
+}
+
+#login_btn {
+  width: 100%;
+  height: 51px;
+  text-align: center;
+}
+
+.message {
+  text-align: center;
+}
